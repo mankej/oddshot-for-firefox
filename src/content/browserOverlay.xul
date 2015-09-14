@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css" href="chrome://oddshot/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM "chrome://oddshot/locale/browserOverlay.dtd">
+
+<overlay id="oddshot-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript" src="chrome://oddshot/content/header.js" />
+    <script type="application/x-javascript" src="chrome://oddshot/content/progressListener.js" />
+    <script type="application/x-javascript" src="chrome://oddshot/content/oddshot.js" />
+    <script type="application/x-javascript" src="chrome://oddshot/content/start.js" />
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="oddshot-string-bundle" src="chrome://oddshot/locale/browserOverlay.properties" />
+    </stringbundleset>
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="oddshot-app-toolbarbutton"
+                       class="toolbarbutton-1 chromeclass-toolbar-additional off"
+                       label="Oddshot"
+                       tooltiptext="Oddshot"
+                       oncommand="Oddshot.BrowserOverlay.capture(event);" />
+    </toolbarpalette>
+</overlay>

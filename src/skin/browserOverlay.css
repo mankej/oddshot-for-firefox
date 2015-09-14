@@ -1,0 +1,16 @@
+#oddshot-app-toolbarbutton {
+    list-style-image: url("chrome://oddshot/skin/icon-24.png");
+}
+#oddshot-app-toolbarbutton.off {
+    list-style-image: url("chrome://oddshot/skin/icon-24-off.png");
+}
+
+toolbar[iconsize="small"] #oddshot-app-toolbarbutton {
+    list-style-image: url("chrome://oddshot/skin/icon-16.png");
+}
+toolbar[iconsize="small"] #oddshot-app-toolbarbutton.off {
+    list-style-image: url("chrome://oddshot/skin/icon-16-off.png");
+}
+toolbarpaletteitem #oddshot-app-toolbarbutton.off {
+    list-style-image: url("chrome://oddshot/skin/icon-24-off.png");
+}
