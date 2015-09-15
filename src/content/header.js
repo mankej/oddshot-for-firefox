@@ -1,6 +1,6 @@
 const COMMONJS_URI = "resource://gre/modules/commonjs";
 const { require } = Cu.import(COMMONJS_URI + "/toolkit/require.js", {});
-Components.utils.import("resource://modules/httpRequestObserver.js");
+Components.utils.import("resource://jsmmodules/httpRequestObserver.js");
 
 const RENDER_ADDRESS = "http://capture.oddshot.tv:8080/";
 var { modelFor } = require("sdk/model/core");

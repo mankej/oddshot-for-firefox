@@ -7,12 +7,11 @@
     <em:id>unoffical@oddshot.tv</em:id>
     <em:name>Oddshot for Firefox</em:name>
     <em:description>Unofficial firefox version of oddshot plugin</em:description>
-    <em:version>1.0.0</em:version>
+    <em:version>1.0.1</em:version>
     <em:creator>mankej</em:creator>
     <em:homepageURL>https://github.com/mankej/oddshot-for-firefox</em:homepageURL>
     <em:type>2</em:type>
 
-    <!-- Mozilla Firefox -->
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>

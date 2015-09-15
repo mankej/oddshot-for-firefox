@@ -1,6 +1,6 @@
 content   oddshot                content/
 skin      oddshot  classic/1.0   skin/
 locale    oddshot  en-US         locale/en-US/
-resource    modules    modules/
+resource    jsmmodules    modules/
 overlay chrome://browser/content/browser.xul  chrome://oddshot/content/browserOverlay.xul
 style chrome://global/content/customizeToolbar.xul chrome://oddshot/skin/browserOverlay.css
